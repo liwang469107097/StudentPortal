@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StudentPortal</string>
+    <string name="cs_student_portal.apply_to_professional_program">Apply to Professional Program</string>
+    <string name="cs_student_portal.application_instructions">You must earn a C or better and a 3.2 cumulative GPA in all the following courses. Enter your grades below to begin the application process.</string>
+    <string name="cs_student_portal.apply">Apply</string>
+    <string-array name="cs_student_portal.letter_grades">
+        <item>n/a</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>F</item>
+        <item>I</item>
+        <item>in progress</item>
+    </string-array>
+</resources>

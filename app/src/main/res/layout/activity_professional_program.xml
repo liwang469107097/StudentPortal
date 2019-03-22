@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfessionalProgramActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:alignmentMode="alignBounds"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:useDefaultMargins="true">
+
+            <TextView
+                android:id="@+id/textViewInstructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="2"
+                android:text="@string/cs_student_portal.application_instructions" />
+
+            <TextView
+                android:id="@+id/textViewCIS115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="CIS 115"
+                tools:layout_width="wrap_content" />
+
+            <Spinner
+                android:id="@+id/spinnerGradeCIS115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:entries="@array/cs_student_portal.letter_grades"
+                android:gravity="left"
+                android:spinnerMode="dropdown"></Spinner>
+
+            <TextView
+                android:id="@+id/textViewCIS200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="CIS 200" />
+
+            <Spinner
+                android:id="@+id/spinnerGradeCIS200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:entries="@array/cs_student_portal.letter_grades"
+                android:gravity="left"
+                android:spinnerMode="dropdown"></Spinner>
+
+            <TextView
+                android:id="@+id/textViewCIS300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="CIS 300" />
+
+            <Spinner
+                android:id="@+id/spinnerGradeCIS300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:entries="@array/cs_student_portal.letter_grades"
+                android:gravity="left"
+                android:spinnerMode="dropdown"></Spinner>
+
+            <TextView
+                android:id="@+id/textViewCIS301"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="CIS 301" />
+
+            <Spinner
+                android:id="@+id/spinnerGradeCIS301"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:entries="@array/cs_student_portal.letter_grades"
+                android:gravity="left"
+                android:spinnerMode="dropdown"></Spinner>
+
+            <TextView
+                android:id="@+id/textViewECE241"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="ECE 241" />
+
+            <Spinner
+                android:id="@+id/spinnerGradeECE241"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:entries="@array/cs_student_portal.letter_grades"
+                android:gravity="left"
+                android:spinnerMode="dropdown"></Spinner>
+
+            <TextView
+                android:id="@+id/textViewMATH220"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="MATH 220" />
+
+            <Spinner
+                android:id="@+id/spinnerGradeMATH220"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:entries="@array/cs_student_portal.letter_grades"
+                android:gravity="left"
+                android:spinnerMode="dropdown"></Spinner>
+
+            <TextView
+                android:id="@+id/textViewMATH221"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="MATH 221" />
+
+            <Spinner
+                android:id="@+id/spinnerGradeMATH221"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:entries="@array/cs_student_portal.letter_grades"
+                android:gravity="left"
+                android:spinnerMode="dropdown"></Spinner>
+
+            <TextView
+                android:id="@+id/textViewCumulativeGPA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="2"
+                android:background="@android:color/holo_orange_light"
+                android:gravity="center_horizontal"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="2"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/cs_student_portal.apply" />
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
